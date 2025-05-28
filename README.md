@@ -24,7 +24,7 @@ A slight upgrade from [Basic MCP Maps](https://aistudio.google.com/apps/bundled/
    ```bash
    npm install
    ```
-5. Create .env.local: <br>
+4. Create .env.local: <br>
    **Windows (Make sure you have WSL, check by trying `wsl --version`)**:
    ```bash
    wsl touch .env.local
@@ -33,16 +33,20 @@ A slight upgrade from [Basic MCP Maps](https://aistudio.google.com/apps/bundled/
    ```bash
    touch .env.local
    ```
-7. Open in your desired code editor.
+5. Open in your desired code editor.
    ```bash
    code .
    ```
-8. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key. Get your API key [here](https://aistudio.google.com/apikey).
+6. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key. Get your API key [here](https://aistudio.google.com/apikey).
    ```env
    GEMINI_API_KEY="YOUR_API_KEY"
    ```
-9. Run the app:
+7. Set the `MAPS_API_KEY` in [.env.local](.env.local) to your Maps API key. Get your API key [here](https://developers.google.com/maps/documentation/embed/get-started)
+   ```env
+   MAPS_API_KEY="YOUR_API_KEY"
+   ```
+8. Run the app:
    ```bash
    npm run dev
    ```
-11. Open web app in your browser at http://localhost:5173.
+9. Open web app in your browser at http://localhost:5173.
